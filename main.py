@@ -12,6 +12,9 @@
 
 # git commit -m 'some message' - фиксация\создание версии кода с сообщением
 
+# git commit -am 'some message' - добавление существующего файла в список отслеживания
+# и фиксация/ создание версии кода с сообщением
+
 # git remote add <variable name>(обычно название origin) <link to repository>
 # связка локального репозитрия с удаленным и сохранение ссылки в переменную
 
@@ -22,3 +25,7 @@
 # git branch - вывод списка веток
 # git branch <new_branch_name> -  создание новой ветки
 # git checkout <branch name> - переход на указанную ветку
+
+# git pull origin <branch_name> - стягивание/добавление изменений с указаннй ветки в текущую
+
+# git clone <link_to_repository> - скачивание/клонирование указанного репозитория 
